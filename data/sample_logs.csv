@@ -1,0 +1,261 @@
+timestamp,service,level,message,synthetic_incident
+2026-10-27 10:00:01,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:00:03,product-service,INFO,Product catalog cache hit for sku=9935,0
+2026-10-27 10:00:04,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:00:05,authentication-service,INFO,JWT token refreshed for session id=4811,0
+2026-10-27 10:00:06,inventory-service,INFO,Inventory reservation confirmed for order_id=9928,0
+2026-10-27 10:00:10,product-service,INFO,Product pricing updated for flash sale sku=5557,0
+2026-10-27 10:00:11,product-service,INFO,Product pricing updated for flash sale sku=6574,0
+2026-10-27 10:00:14,product-service,INFO,Product details queried for category id=6514,0
+2026-10-27 10:00:15,authentication-service,INFO,OAuth2 callback validated successfully,0
+2026-10-27 10:00:18,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:00:19,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:00:23,authentication-service,INFO,User logout completed session invalidated,0
+2026-10-27 10:00:26,inventory-service,INFO,Inventory reservation confirmed for order_id=2139,0
+2026-10-27 10:00:27,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:00:29,authentication-service,INFO,OAuth2 callback validated successfully,0
+2026-10-27 10:00:33,order-service,INFO,Order validation passed for customer=7065,0
+2026-10-27 10:00:36,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:00:38,inventory-service,INFO,Inventory reservation confirmed for order_id=3677,0
+2026-10-27 10:00:42,payment-service,INFO,Payment authorization approved auth_code=4598,0
+2026-10-27 10:00:45,authentication-service,INFO,JWT token refreshed for session id=1525,0
+2026-10-27 10:00:48,payment-service,INFO,Payment authorization approved auth_code=2084,0
+2026-10-27 10:00:50,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:00:54,payment-service,INFO,Customer balance checked successfully,0
+2026-10-27 10:00:57,product-service,INFO,Product details queried for category id=9830,0
+2026-10-27 10:01:00,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:01:03,product-service,INFO,Product details queried for category id=9348,0
+2026-10-27 10:01:07,authentication-service,INFO,User login successful token issued for uid=2796,0
+2026-10-27 10:01:09,product-service,INFO,Product pricing updated for flash sale sku=2040,0
+2026-10-27 10:01:13,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:01:16,inventory-service,INFO,Stock level checked for sku=2876 available=45,0
+2026-10-27 10:01:19,order-service,INFO,Incoming order checkout request received order_id=5808,0
+2026-10-27 10:01:23,product-service,INFO,Product pricing updated for flash sale sku=1053,0
+2026-10-27 10:01:26,inventory-service,INFO,Inventory reservation confirmed for order_id=9317,0
+2026-10-27 10:01:27,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:01:29,order-service,INFO,Order validation passed for customer=9837,0
+2026-10-27 10:01:30,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:01:31,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:01:33,authentication-service,INFO,JWT token refreshed for session id=2290,0
+2026-10-27 10:01:34,payment-service,INFO,Payment intent created for amount=$9727,0
+2026-10-27 10:01:36,product-service,INFO,Product pricing updated for flash sale sku=3705,0
+2026-10-27 10:01:39,inventory-service,INFO,Inventory audit completed without discrepancy,0
+2026-10-27 10:01:41,inventory-service,INFO,Inventory reservation confirmed for order_id=6107,0
+2026-10-27 10:01:45,order-service,INFO,Cart details validated successfully,0
+2026-10-27 10:01:49,authentication-service,INFO,JWT token refreshed for session id=4681,0
+2026-10-27 10:01:50,order-service,INFO,Incoming order checkout request received order_id=4770,0
+2026-10-27 10:01:52,authentication-service,INFO,User login successful token issued for uid=1964,0
+2026-10-27 10:01:54,authentication-service,INFO,User login successful token issued for uid=6413,0
+2026-10-27 10:01:55,inventory-service,INFO,Inventory reservation confirmed for order_id=5562,0
+2026-10-27 10:01:59,product-service,INFO,Inventory sync received for sku=3167,0
+2026-10-27 10:02:03,product-service,INFO,Product pricing updated for flash sale sku=7669,0
+2026-10-27 10:02:05,authentication-service,INFO,User login successful token issued for uid=8062,0
+2026-10-27 10:02:08,payment-service,INFO,Customer balance checked successfully,0
+2026-10-27 10:02:09,authentication-service,INFO,User login successful token issued for uid=7596,0
+2026-10-27 10:02:12,authentication-service,INFO,JWT token refreshed for session id=4139,0
+2026-10-27 10:02:14,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:02:18,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:02:20,authentication-service,INFO,OAuth2 callback validated successfully,0
+2026-10-27 10:02:21,inventory-service,INFO,Stock level checked for sku=2528 available=45,0
+2026-10-27 10:02:23,product-service,INFO,Product pricing updated for flash sale sku=8956,0
+2026-10-27 10:02:27,product-service,INFO,Product pricing updated for flash sale sku=1960,0
+2026-10-27 10:02:29,payment-service,INFO,Payment intent created for amount=$7396,0
+2026-10-27 10:02:32,payment-service,INFO,Payment authorization approved auth_code=7930,0
+2026-10-27 10:02:36,product-service,INFO,Product details queried for category id=5861,0
+2026-10-27 10:02:38,authentication-service,INFO,User logout completed session invalidated,0
+2026-10-27 10:02:39,order-service,INFO,Incoming order checkout request received order_id=1821,0
+2026-10-27 10:02:43,inventory-service,INFO,Inventory audit completed without discrepancy,0
+2026-10-27 10:02:44,inventory-service,INFO,Stock level checked for sku=4044 available=45,0
+2026-10-27 10:02:45,inventory-service,INFO,Stock level checked for sku=4853 available=45,0
+2026-10-27 10:02:49,authentication-service,INFO,User logout completed session invalidated,0
+2026-10-27 10:02:50,inventory-service,INFO,Stock level checked for sku=7868 available=45,0
+2026-10-27 10:02:53,order-service,INFO,Order validation passed for customer=6147,0
+2026-10-27 10:02:55,order-service,INFO,Cart details validated successfully,0
+2026-10-27 10:02:58,payment-service,INFO,Payment authorization approved auth_code=2188,0
+2026-10-27 10:02:59,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:03:00,inventory-service,INFO,Inventory reservation confirmed for order_id=9288,0
+2026-10-27 10:03:03,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:03:05,order-service,INFO,Order status transitioned to PENDING_PAYMENT,0
+2026-10-27 10:03:09,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:03:10,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:03:12,order-service,INFO,Incoming order checkout request received order_id=2753,0
+2026-10-27 10:03:14,order-service,INFO,Order status transitioned to PENDING_PAYMENT,0
+2026-10-27 10:03:17,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:03:21,order-service,INFO,Incoming order checkout request received order_id=2512,0
+2026-10-27 10:03:25,order-service,INFO,Incoming order checkout request received order_id=1058,0
+2026-10-27 10:03:28,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:03:32,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:03:33,authentication-service,INFO,JWT token refreshed for session id=9938,0
+2026-10-27 10:03:34,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:03:38,product-service,INFO,Product catalog cache hit for sku=6050,0
+2026-10-27 10:03:41,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:03:43,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:03:45,product-service,INFO,Product details queried for category id=3900,0
+2026-10-27 10:03:49,authentication-service,INFO,JWT token refreshed for session id=6442,0
+2026-10-27 10:03:53,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:03:54,payment-service,INFO,Payment intent created for amount=$8711,0
+2026-10-27 10:03:56,product-service,INFO,Product pricing updated for flash sale sku=6728,0
+2026-10-27 10:03:59,product-service,INFO,Product details queried for category id=1387,0
+2026-10-27 10:04:01,payment-service,INFO,Payment authorization approved auth_code=5564,0
+2026-10-27 10:04:02,order-service,INFO,Order status transitioned to PENDING_PAYMENT,0
+2026-10-27 10:04:06,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:04:07,product-service,INFO,Product details queried for category id=5349,0
+2026-10-27 10:04:08,payment-service,CRITICAL,"HikariPool-1 - Connection is not available, request timed out after 30004ms",1
+2026-10-27 10:04:11,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=9379,1
+2026-10-27 10:04:12,payment-service,ERROR,Payment authorization failed for order_id=4114: Connection timed out,1
+2026-10-27 10:04:14,payment-service,CRITICAL,"HikariPool-1 - Connection is not available, request timed out after 30004ms",1
+2026-10-27 10:04:17,inventory-service,INFO,Inventory reservation confirmed for order_id=6967,0
+2026-10-27 10:04:19,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:04:22,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:04:24,order-service,WARNING,Payment gateway call timed out; retrying attempt 2 of 3 with exponential backoff,1
+2026-10-27 10:04:27,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:04:29,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=3851,1
+2026-10-27 10:04:32,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=9977,1
+2026-10-27 10:04:33,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:04:36,order-service,WARNING,Payment gateway call timed out; retrying attempt 2 of 3 with exponential backoff,1
+2026-10-27 10:04:38,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:04:40,order-service,WARNING,Payment gateway call timed out; retrying attempt 1 of 3 for order_id=2389,1
+2026-10-27 10:04:42,order-service,ERROR,HTTP 504 Gateway Timeout received from downstream payment-service,1
+2026-10-27 10:04:43,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:04:44,payment-service,WARNING,DB connection pool utilization reached 96% (active=48/50),1
+2026-10-27 10:04:46,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:04:48,inventory-service,INFO,Inventory reservation confirmed for order_id=7291,0
+2026-10-27 10:04:50,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:04:51,order-service,WARNING,Payment gateway call timed out; retrying attempt 1 of 3 for order_id=3881,1
+2026-10-27 10:04:54,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:04:55,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=9702,1
+2026-10-27 10:04:58,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=9270,1
+2026-10-27 10:05:00,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:05:03,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:05:06,payment-service,ERROR,Payment authorization failed for order_id=8939: Connection timed out,1
+2026-10-27 10:05:09,payment-service,CRITICAL,"HikariPool-1 - Connection is not available, request timed out after 30004ms",1
+2026-10-27 10:05:12,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:05:14,authentication-service,INFO,JWT token refreshed for session id=3471,0
+2026-10-27 10:05:15,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:05:16,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:05:18,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:05:20,inventory-service,INFO,Stock level checked for sku=7232 available=45,0
+2026-10-27 10:05:22,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:05:24,product-service,INFO,Inventory sync received for sku=9947,0
+2026-10-27 10:05:27,product-service,INFO,Product details queried for category id=5471,0
+2026-10-27 10:05:29,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=6507,1
+2026-10-27 10:05:32,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=3704,1
+2026-10-27 10:05:34,inventory-service,INFO,Inventory audit completed without discrepancy,0
+2026-10-27 10:05:36,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:05:39,payment-service,CRITICAL,"HikariPool-1 - Connection is not available, request timed out after 30004ms",1
+2026-10-27 10:05:40,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:05:42,payment-service,CRITICAL,"HikariPool-1 - Connection is not available, request timed out after 30004ms",1
+2026-10-27 10:05:44,payment-service,WARNING,DB connection pool utilization reached 96% (active=48/50),1
+2026-10-27 10:05:45,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:05:46,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:05:47,payment-service,WARNING,DB connection pool utilization reached 96% (active=48/50),1
+2026-10-27 10:05:48,payment-service,WARNING,DB connection pool utilization reached 96% (active=48/50),1
+2026-10-27 10:05:50,order-service,WARNING,Payment gateway call timed out; retrying attempt 2 of 3 with exponential backoff,1
+2026-10-27 10:05:53,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:05:55,payment-service,WARNING,DB connection pool utilization reached 96% (active=48/50),1
+2026-10-27 10:05:58,order-service,ERROR,Payment gateway failed after 3 retry attempts; aborting checkout for order_id=7498,1
+2026-10-27 10:06:01,payment-service,ERROR,Payment authorization failed for order_id=4978: Connection timed out,1
+2026-10-27 10:06:02,order-service,WARNING,Payment gateway call timed out; retrying attempt 2 of 3 with exponential backoff,1
+2026-10-27 10:06:05,order-service,WARNING,Payment gateway call timed out; retrying attempt 2 of 3 with exponential backoff,1
+2026-10-27 10:06:07,order-service,WARNING,Call to downstream payment-service delayed response latency=4820ms,1
+2026-10-27 10:06:10,payment-service,CRITICAL,"HikariPool-1 - Connection is not available, request timed out after 30004ms",1
+2026-10-27 10:06:11,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:06:14,payment-service,ERROR,Timeout waiting for available database connection in pool after 5000ms,1
+2026-10-27 10:06:17,payment-service,ERROR,Payment authorization failed for order_id=8921: Connection timed out,1
+2026-10-27 10:06:19,payment-service,ERROR,Payment authorization failed for order_id=5397: Connection timed out,1
+2026-10-27 10:06:21,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:06:22,order-service,ERROR,HTTP 504 Gateway Timeout received from downstream payment-service,1
+2026-10-27 10:06:24,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:06:26,payment-service,ERROR,Connection refused to payment gateway host api.stripe.internal:443,1
+2026-10-27 10:06:28,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:06:31,authentication-service,INFO,JWT token refreshed for session id=7658,0
+2026-10-27 10:06:35,inventory-service,INFO,Inventory reservation confirmed for order_id=8800,0
+2026-10-27 10:06:39,payment-service,INFO,Payment intent created for amount=$2524,0
+2026-10-27 10:06:42,product-service,INFO,Product pricing updated for flash sale sku=4986,0
+2026-10-27 10:06:45,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:06:48,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:06:51,payment-service,INFO,HikariPool connection pool refreshed. Active connections restored to nominal: 4/50,0
+2026-10-27 10:06:55,order-service,INFO,Order status transitioned to PENDING_PAYMENT,0
+2026-10-27 10:06:57,authentication-service,INFO,JWT token refreshed for session id=6169,0
+2026-10-27 10:06:58,order-service,INFO,Payment service healthcheck passed. Resuming queued checkout processing.,0
+2026-10-27 10:07:00,product-service,INFO,Product details queried for category id=8933,0
+2026-10-27 10:07:03,inventory-service,INFO,Inventory audit completed without discrepancy,0
+2026-10-27 10:07:04,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:07:07,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:07:09,order-service,INFO,Incoming order checkout request received order_id=1893,0
+2026-10-27 10:07:12,product-service,INFO,Product pricing updated for flash sale sku=2680,0
+2026-10-27 10:07:13,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:07:17,payment-service,INFO,Payment authorization approved auth_code=4020,0
+2026-10-27 10:07:18,order-service,INFO,Cart details validated successfully,0
+2026-10-27 10:07:19,payment-service,INFO,Customer balance checked successfully,0
+2026-10-27 10:07:20,product-service,INFO,Product details queried for category id=5978,0
+2026-10-27 10:07:21,product-service,INFO,Product catalog cache hit for sku=7818,0
+2026-10-27 10:07:23,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:07:27,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:07:30,inventory-service,INFO,Inventory audit completed without discrepancy,0
+2026-10-27 10:07:31,product-service,INFO,Product details queried for category id=5335,0
+2026-10-27 10:07:32,product-service,INFO,Product details queried for category id=3847,0
+2026-10-27 10:07:33,product-service,INFO,Product catalog cache hit for sku=7693,0
+2026-10-27 10:07:37,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:07:38,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:07:42,authentication-service,INFO,JWT token refreshed for session id=5334,0
+2026-10-27 10:07:44,payment-service,INFO,Payment intent created for amount=$9922,0
+2026-10-27 10:07:46,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:07:47,authentication-service,INFO,JWT token refreshed for session id=6039,0
+2026-10-27 10:07:50,payment-service,INFO,Payment intent created for amount=$8679,0
+2026-10-27 10:07:53,payment-service,INFO,Payment authorization approved auth_code=9199,0
+2026-10-27 10:07:57,payment-service,INFO,Payment intent created for amount=$1653,0
+2026-10-27 10:08:01,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:08:02,authentication-service,INFO,JWT token refreshed for session id=1339,0
+2026-10-27 10:08:05,inventory-service,INFO,Stock level checked for sku=3870 available=45,0
+2026-10-27 10:08:09,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:08:11,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:08:12,payment-service,INFO,Payment authorization approved auth_code=7690,0
+2026-10-27 10:08:15,order-service,INFO,Incoming order checkout request received order_id=3634,0
+2026-10-27 10:08:18,payment-service,INFO,Customer balance checked successfully,0
+2026-10-27 10:08:22,inventory-service,INFO,Stock level checked for sku=8451 available=45,0
+2026-10-27 10:08:23,order-service,INFO,Order status transitioned to PENDING_PAYMENT,0
+2026-10-27 10:08:24,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:08:28,payment-service,INFO,Payment intent created for amount=$4073,0
+2026-10-27 10:08:31,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:08:32,product-service,INFO,Fetched 20 active catalog items,0
+2026-10-27 10:08:34,order-service,INFO,Cart details validated successfully,0
+2026-10-27 10:08:35,authentication-service,INFO,User logout completed session invalidated,0
+2026-10-27 10:08:37,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:08:41,authentication-service,INFO,JWT token refreshed for session id=2858,0
+2026-10-27 10:08:45,authentication-service,INFO,JWT token refreshed for session id=9165,0
+2026-10-27 10:08:48,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:08:52,payment-service,INFO,Stripe gateway webhook verified,0
+2026-10-27 10:08:54,payment-service,INFO,Stripe gateway webhook verified,0
+2026-10-27 10:08:56,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:08:59,inventory-service,INFO,Warehouse stock replenishing batch received,0
+2026-10-27 10:09:02,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:09:04,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:09:07,order-service,INFO,Order fulfillment dispatched to inventory,0
+2026-10-27 10:09:11,payment-service,INFO,Payment authorization approved auth_code=4090,0
+2026-10-27 10:09:13,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:09:17,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:09:21,payment-service,INFO,Stripe gateway webhook verified,0
+2026-10-27 10:09:22,product-service,INFO,Inventory sync received for sku=6439,0
+2026-10-27 10:09:23,payment-service,INFO,Payment intent created for amount=$9617,0
+2026-10-27 10:09:27,authentication-service,INFO,JWT token refreshed for session id=7717,0
+2026-10-27 10:09:29,authentication-service,INFO,OAuth2 callback validated successfully,0
+2026-10-27 10:09:32,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:09:35,inventory-service,INFO,Item quantity updated in warehouse-01,0
+2026-10-27 10:09:39,inventory-service,INFO,Stock level checked for sku=2121 available=45,0
+2026-10-27 10:09:41,order-service,INFO,Order validation passed for customer=2480,0
+2026-10-27 10:09:45,authentication-service,INFO,User login successful token issued for uid=8269,0
+2026-10-27 10:09:47,order-service,INFO,Incoming order checkout request received order_id=1753,0
+2026-10-27 10:09:50,authentication-service,INFO,Public key cached for auth verification,0
+2026-10-27 10:09:53,payment-service,INFO,Stripe gateway webhook verified,0
+2026-10-27 10:09:57,inventory-service,INFO,Inventory reservation confirmed for order_id=3785,0
+2026-10-27 10:09:59,authentication-service,INFO,User logout completed session invalidated,0
+2026-10-27 10:10:01,payment-service,INFO,Payment batch reconciliation finished,0
+2026-10-27 10:10:03,payment-service,INFO,Payment authorization approved auth_code=8529,0
+2026-10-27 10:10:06,authentication-service,INFO,OAuth2 callback validated successfully,0
+2026-10-27 10:10:08,authentication-service,INFO,OAuth2 callback validated successfully,0
+2026-10-27 10:10:11,payment-service,INFO,Payment authorization approved auth_code=8484,0
+2026-10-27 10:10:14,product-service,INFO,Product pricing updated for flash sale sku=8916,0
+2026-10-27 10:10:15,product-service,INFO,Product pricing updated for flash sale sku=6881,0
+2026-10-27 10:10:18,order-service,INFO,Incoming order checkout request received order_id=7484,0
+2026-10-27 10:10:21,authentication-service,INFO,User logout completed session invalidated,0

@@ -1,0 +1,9 @@
+[
+  {"Date": "2026-10-27 12:00:01", "Component": "user-service", "LogLevel": "INFO", "Content": "User profile requested for id=101"},
+  {"Date": "2026-10-27 12:00:03", "Component": "billing-service", "LogLevel": "INFO", "Content": "Invoice generated for subscription sub_99"},
+  {"Date": "2026-10-27 12:00:05", "Component": "notification-service", "LogLevel": "INFO", "Content": "Push notification sent successfully"},
+  {"Date": "2026-10-27 12:00:08", "Component": "database-proxy", "LogLevel": "CRITICAL", "Content": "FATAL: Out of memory panic killed worker process socket closed"},
+  {"Date": "2026-10-27 12:00:09", "Component": "database-proxy", "LogLevel": "ERROR", "Content": "Connection pool exhausted all 100 connections in use timeout"},
+  {"Date": "2026-10-27 12:00:10", "Component": "user-service", "LogLevel": "ERROR", "Content": "Failed to query user database: Connection timed out after 3000ms"},
+  {"Date": "2026-10-27 12:00:12", "Component": "billing-service", "LogLevel": "WARNING", "Content": "Retry attempt 1 of 3 connecting to database-proxy failed"}
+]
