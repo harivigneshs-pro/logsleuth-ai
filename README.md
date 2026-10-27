@@ -230,3 +230,5 @@ All 23 tests validate:
 - Root cause ranking and evidence synthesis
 - Standalone HTML incident report generation
 - FastAPI REST endpoints (`/`, `/health`, `/metrics`, `/sample`, `/sample/report`, `/analyze`, `/analyze/report`)
+#   l o g s l e u t h - a i  
+ 
