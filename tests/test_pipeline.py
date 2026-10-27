@@ -156,6 +156,12 @@ def test_feature_extraction():
     assert "has_error_kw" in names
     assert "has_timeout_kw" in names
     assert "msg_length" in names
+    assert "rolling_burst_60s" in names
+    assert "time_delta_service" in names
+    # Index 3 is second payment-service event within 20s: burst count should be 2.0
+    assert feat_df.loc[3, "rolling_burst_60s"] == 2.0
+    assert feat_df.loc[3, "time_delta_service"] == 20.0
+
 
 
 # 4. Anomaly Detection Tests

@@ -325,9 +325,13 @@ def answer_natural_language_query(query: str, res: dict[str, Any]) -> str:
 
     # First / earliest anomaly timestamp
     if any(k in q for k in ["earliest", "first anomaly", "timeline", "when did it start"]):
+        valid_earliest = [
+            c for c in candidates
+            if c.get("earliest_anomaly_ts") and str(c["earliest_anomaly_ts"]).strip() not in ("None", "N/A", "")
+        ]
         earliest_cand = min(
-            [c for c in candidates if c["earliest_anomaly_ts"] != "None"],
-            key=lambda x: x["earliest_anomaly_ts"],
+            valid_earliest,
+            key=lambda x: str(x["earliest_anomaly_ts"]),
             default=None
         )
         if earliest_cand:
@@ -715,7 +719,8 @@ else:
             all_services = ["All Services"] + sorted(list(scored_df["service"].unique()))
             selected_svc = st.selectbox("Filter by Service", all_services)
         with c_filter2:
-            min_score = st.slider("Minimum Anomaly Score", 0.0, 1.0, float(thresh), 0.05)
+            slider_default = float(max(0.0, min(1.0, float(thresh if thresh is not None else 0.7))))
+            min_score = st.slider("Minimum Anomaly Score", 0.0, 1.0, slider_default, 0.05)
         with c_filter3:
             only_anomalies = st.checkbox("Show only flagged anomalies", value=True)
 
