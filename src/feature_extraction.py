@@ -78,16 +78,12 @@ def extract_features(df: pd.DataFrame) -> tuple[np.ndarray, list[str], pd.DataFr
 
         # Time delta in seconds from previous event in same service
         time_deltas = sorted_df.groupby("service")["timestamp"].diff().dt.total_seconds().fillna(60.0)
-        feat_df["time_delta_service"] = time_deltas.reindex(df.index).clip(lower=0.0, upper=3600.0)
+        feat_df["time_delta_service"] = time_deltas.clip(lower=0.0, upper=3600.0)
 
-        # Rolling 60-second burst activity count properly aligned to df.index
-        rolling_counts = sorted_df.groupby("service", group_keys=False).apply(
-            lambda g: pd.Series(
-                g.set_index("timestamp")["message"].rolling("60s").count().values,
-                index=g.index
-            ),
-            include_groups=False
-        )
+        # Rolling 60-second burst activity count
+        # Reindex to ensure monotonic alignment for rolling
+        ts_series = sorted_df.set_index("timestamp")
+        rolling_counts = ts_series.groupby("service")["message"].rolling("60s").count().reset_index(level=0, drop=True)
         feat_df["rolling_burst_60s"] = rolling_counts.reindex(df.index).fillna(1.0).astype(float)
     else:
         feat_df["time_delta_service"] = 60.0
